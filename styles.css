@@ -1,4 +1,6 @@
 body {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
     margin: 0;
     font-family: monospace;
     font-size: 3em;
@@ -9,6 +11,10 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1em;
+}
+
+a, a:visited {
+    color: #b4befe;
 }
 
 footer {
