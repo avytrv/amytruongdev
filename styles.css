@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    font-size: 3em;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+footer {
+    margin-top: 1em;
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 1em;
+    }
+}
