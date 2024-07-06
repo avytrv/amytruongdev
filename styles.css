@@ -10,15 +10,27 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 2em;
+}
+
+h1 {
+    margin: 0;
 }
 
 a, a:visited {
     color: #b4befe;
 }
 
-footer {
-    margin-top: 1em;
+.tagline {
+    margin: 0 0 2em 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
 }
 
 @media (min-width: 992px) {
